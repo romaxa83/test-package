@@ -1,7 +1,7 @@
 #! /usr/bin/env php
 
 <?php 
-include "src/Pacman/Days.php";
+require_once "vendor/autoload.php";
 
 $birthday = "1983-12-18";
 
