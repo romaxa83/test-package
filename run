@@ -1,0 +1,10 @@
+#! /usr/bin/env php
+
+<?php 
+$bdate = strtotime("1983-12-18");
+$today = strtotime(date("Y-m-d"));
+
+$total = $today - $bdate;
+$days = floor($total /3600/24);
+
+echo "Кол-во дней - ". $days . PHP_EOL;
